@@ -1,0 +1,34 @@
+{
+    "app": "com.lenze.nupano-runtime",
+    "version": "##VERSION##",
+    "revision": "##FLECS_VERSION##",
+    "title": "NUPANO Runtime",
+    "author": "Lenze SE",
+    "image": "flecs.azurecr.io/com.lenze.nupano-runtime",
+    "description": "Open automation platform",
+    "avatar": "",
+    "category": "fleet management",
+    "multiInstance": false,
+    "editor": "",
+    "args": [],
+    "capabilities": [
+        "DOCKER"
+    ],
+    "conffiles": [],
+    "devices": [],
+    "env": [
+        "logging.level.com.nupano=INFO",
+        "nupano.description.manufacturer=not specified",
+        "nupano.description.model-name=FLECS device",
+        "nupano.description.serial-number=0xF1EC5",
+        "nupano.update.enabled=false"
+    ],
+    "interactive": false,
+    "ports": [
+        "61100:61100"
+    ],
+    "startupOptions": [],
+    "volumes": [
+        "nupano_data:/nupano"
+    ]
+}
