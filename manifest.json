@@ -16,8 +16,7 @@
         "logging.level.com.nupano=INFO",
         "nupano.description.manufacturer=not specified",
         "nupano.description.model-name=FLECS device",
-        "nupano.description.serial-number=0xF1EC5",
-        "nupano.update.enabled=false"
+        "nupano.description.serial-number=0xF1EC5"
     ],
     "interactive": false,
     "ports": [
